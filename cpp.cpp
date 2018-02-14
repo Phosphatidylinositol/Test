@@ -14,3 +14,12 @@ void main(int argc, char* args[])
 {
 	return ;
 }
+
+void fTruc()
+{
+	string chaine("");
+	cout << "Un truc est affiche." ;
+	getLine(cin, &chaine);
+	cout << chaine;
+	return ;
+}
